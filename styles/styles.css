@@ -251,6 +251,139 @@ main{
     background-repeat: no-repeat;
 }
 
+#servicoscontainer{
+    display: flex;
+    
+}
+
+#servicosh1{
+    padding-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #A63348;
+    font-weight: bold;
+    
+}
+
+#redessociaiscontainer{
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    width: 90vw;
+    background-color: beige;
+}
+
+#redessociais{
+    margin-left: 30px;
+    width: 50%;
+    
+    
+}
+
+#redessociaisimg{
+    width: 45%;
+    height: 400px;
+    background-image: url(../imagens/redessociais.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#socialh2{
+    padding: 40px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+    color: #F29D35;
+}
+
+#redessociais p{
+    text-align: center;
+    line-height: 25px;
+    color: #8C3565;
+}
+
+/*automacao*/
+
+#automacaocontainer{
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    width: 90vw;
+    background-color: beige;
+}
+
+#automacao{
+    margin-left: 30px;
+    width: 50%;
+    
+    
+}
+
+#automacaoimg{
+    padding-top: 50px;
+    width: 45%;
+    height: 300px;
+    background-image: url(../imagens/automacao.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#automacaoh2{
+    padding: 40px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+    color: #F29D35;
+}
+
+#automacao p{
+    text-align: center;
+    line-height: 25px;
+    color: #8C3565;
+}
+
+/*assessoria*/
+
+#assessoriacontainer{
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    width: 90vw;
+    background-color: beige;
+}
+
+#assessoria{
+    margin-left: 30px;
+    width: 50%;
+    
+    
+}
+
+#assessoriaimg{
+    padding-top: 50px;
+    margin-bottom: 20px;
+    width: 45%;
+    height: 300px;
+    background-image: url(../imagens/assessoria.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#assessoriah2{
+    padding: 40px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+    color: #F29D35;
+}
+
+#assessoria p{
+    text-align: center;
+    line-height: 25px;
+    color: #8C3565;
+}
+
 #footercontainer{
     
     display: flex;
