@@ -183,12 +183,12 @@ main{
 }
 
 #clientesimgcontainer{
-    max-width: 900px;
+    
     margin-top: 50px;
-    margin-left: 200px;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: center;
+    
 }
 
 
