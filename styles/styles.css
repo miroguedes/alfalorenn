@@ -179,13 +179,13 @@ main{
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
-    color: #262525;
+    color: #8C3565;
 }
 
 #clientesimgcontainer{
     max-width: 900px;
+    margin-top: 50px;
     margin-left: 200px;
-    margin-top: 30px;
     display: flex;
     flex-direction: row;
     align-items: center;
