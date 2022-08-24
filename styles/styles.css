@@ -183,7 +183,7 @@ main{
 }
 
 #clientesimgcontainer{
-    
+    width: 100vw;
     margin-top: 50px;
     display: flex;
     flex-direction: row;
