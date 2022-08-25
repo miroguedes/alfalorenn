@@ -826,7 +826,7 @@ main{
     
     #assessoria{
         margin-bottom: 20px;
-        width: 90%;
+        width: 95%;
         
         
     }
@@ -866,6 +866,7 @@ main{
         background-color: rgb(31, 30, 30);
         margin-bottom: 0px;
         box-shadow: 1px 0 10px 2px;
+        justify-content: space-around;
     }
     
     #logofooter{
@@ -881,12 +882,11 @@ main{
     
     #linksfooter ul{
         
-        
+        margin-left: 20px;
         display: flex;
         flex-direction: column;
         line-height: 5px;
         
-        margin-right: 50px;
     }
     
     #endereco{
@@ -906,14 +906,7 @@ main{
         font-size: 1rem;
     }
     
-    #social{
-        
-        display: flex;
-        width: 100px;
-        flex-direction: column;
-        
-        
-    }
+    0
     
     #instagram{
         width: 40px;
