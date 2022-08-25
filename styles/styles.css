@@ -493,7 +493,6 @@ main{
     
     
     #logocontainer{
-       margin-top: 20px;
        display: flex;
        margin-left: 20px;
        height: 100px;
@@ -540,10 +539,7 @@ main{
     }
     
     
-    
-    body{
-        
-    }
+   
     
     main{
         margin-top: 120px;
@@ -561,23 +557,23 @@ main{
     
     }
     
-    /*#imagemprincipal{
-        display: flex;
+    #imagemprincipal{
+        display: none;
         margin-top: 45px;
         margin-bottom: 0px;
         height: 550px;
         width: 500px;
         background-repeat: no-repeat;
         background-image: url(../imagens/robot.png);
+    }
         
         
-        
-    }*/
+    
     
     #bestchoice{
         
-        width: 500px;
-        font-size: 2.5rem;
+        width: 93%;
+        font-size: 2rem;
         line-height: 50px;
         font-weight: bold;
         color: white;
@@ -597,13 +593,13 @@ main{
     
     #sobrenos{
         margin-left: 30px;
-        width: 50%;
+        width: 90%;
         
         
     }
     
     #sobrenos h1{
-        font-size: 2rem;
+        font-size: 2.5rem;
         font-weight: bold;
         text-align: center;
         color: #F29D35;
@@ -616,6 +612,7 @@ main{
     }
     
     #sobrenosimg{
+        display: none;
         margin-top: 60px;
         width: 50%;
         height: 370px;
@@ -640,7 +637,7 @@ main{
     
     #clientescontainer h4{
         padding-top: 20px;
-        font-size: 2rem;
+        font-size: 2.5rem;
         font-weight: bold;
         text-align: center;
         color: #F29D35;
@@ -648,10 +645,10 @@ main{
     
     #clientesimgcontainer{
         width: 100vw;
-        margin-top: 50px;
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        flex-wrap: wrap;
+                
         
     }
     
@@ -663,6 +660,9 @@ main{
         background-image: url(../imagens/anglo.png);
         background-size: contain;
         background-repeat: no-repeat;
+        margin-bottom: 10px;
+        margin-right: 35px;
+        
     
     }
     
@@ -672,7 +672,7 @@ main{
         height: 100px;
         background-image: url(../imagens/dentistadopovo.webp);
         background-size: contain;
-        margin-left: 40px;
+        margin-right: 35px;
         background-repeat: no-repeat;
     }
     
@@ -681,37 +681,36 @@ main{
         height: 100px;
         background-image: url(../imagens/sorriso.png);
         background-size: contain;
-        margin-left: 40px;
         background-repeat: no-repeat;
     }
     
     .clienteimg4{
-        margin-top: 30px;
-        width: 100px;
-        height: 100px;
+        
+        width: 130px;
+        height: 150px;
         background-image: url(../imagens/odontovida.png);
         background-size: contain;
         background-repeat: no-repeat;
-        margin-left: 40px;
+        margin-left: -3px;
+        
     }
     
     .clienteimg5{
-        margin-top: 30px;
-        width: 100px;
-        height: 100px;
+        
+        width: 130px;
+        height: 150px;
         background-image: url(../imagens/reidoratan.png);
         background-size: contain;
-        margin-left: 40px;
+        
         background-repeat: no-repeat;
     }
     
     .clienteimg6{
-        margin-top: 30px;
+        
         width: 100px;
         height: 100px;
         background-image: url(../imagens/multimarcas.png);
         background-size: contain;
-        margin-left: 40px;
         background-repeat: no-repeat;
     }
     
@@ -733,19 +732,22 @@ main{
     #redessociaiscontainer{
         display: flex;
         margin-left: 50px;
+        margin-right: 50px;
         margin-bottom: 30px;
-        width: 90vw;
+        width: 78vw;
         background-color: beige;
     }
     
     #redessociais{
-        margin-left: 30px;
-        width: 50%;
+        
+        margin-bottom: 20px;
+        width: 85%;
         
         
     }
     
     #redessociaisimg{
+        display: none;
         width: 500px;
         height: 400px;
         background-image: url(../imagens/redessociais.png);
@@ -754,11 +756,12 @@ main{
     }
     
     #socialh2{
-        padding: 40px;
-        font-size: 1.7rem;
+        
+        font-size: 1.5rem;
         font-weight: bold;
         text-align: center;
         color: #F29D35;
+        
     }
     
     #redessociais p{
@@ -772,19 +775,21 @@ main{
     #automacaocontainer{
         display: flex;
         margin-left: 50px;
+        margin-right: 50px;
         margin-bottom: 30px;
-        width: 90vw;
+        width: 78vw;
         background-color: beige;
     }
     
     #automacao{
-        margin-left: 30px;
-        width: 50%;
+        margin-bottom: 20px;
+        width: 85%;
         
         
     }
     
     #automacaoimg{
+        display: none;
         margin-top: 40px;
         
         width: 500px;
@@ -813,21 +818,21 @@ main{
     #assessoriacontainer{
         display: flex;
         margin-left: 50px;
+        margin-right: 50px;
         margin-bottom: 30px;
-        width: 90vw;
+        width: 78vw;
         background-color: beige;
     }
     
     #assessoria{
-        margin-left: 30px;
-        margin-right: 100px;
-        width: 50%;
+        margin-bottom: 20px;
+        width: 90%;
         
         
     }
     
     #assessoriaimg{
-        
+        display: none;
         margin-bottom: 20px;
         width: 500px;
         height: 300px;
@@ -856,29 +861,27 @@ main{
         
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
         width: 100vw;
-        height: 250px;
+        height: 200px;
         background-color: rgb(31, 30, 30);
         margin-bottom: 0px;
-        background-repeat: no-repeat;
         box-shadow: 1px 0 10px 2px;
     }
     
     #logofooter{
         margin-top: 50px;
         margin-left: 40px;
-        width: 250px;
-        height: 150px;
-        display: flex;
+        width: 150px;
+        height: 100px;
         background-image: url(../imagens/logobranco.png);
         background-size: contain;
-       background-repeat: no-repeat;
+       
        
     }
     
     #linksfooter ul{
-        margin-top: 30px;
+        
+        
         display: flex;
         flex-direction: column;
         line-height: 5px;
@@ -887,44 +890,51 @@ main{
     }
     
     #endereco{
+        display: none;
         margin-top: 45px;
-        display: flex;
         color: white;
         font-weight: bold;
        
     }
     
     #endereco p{
-        line-height: 25px;
+        line-height: 15px;
+        font-size: 1rem;
+    }
+
+    #endereco h3{
+        font-size: 1rem;
     }
     
     #social{
-        margin-top: 40px;
+        
         display: flex;
         width: 100px;
-        flex-direction: row;
-        justify-content: space-around;
-        margin-right: 80px;
+        flex-direction: column;
+        
+        
     }
     
     #instagram{
         width: 40px;
         height: 40px;
         background-image: url(../imagens/instagram.png);
-        background-size: contain;
+        
     }
     
     #whatsapp{
         width: 40px;
         height: 40px;
         background-image: url(../imagens/whatsapp.png);
-        background-size: contain;
-        margin-left: 20px;
+        
+        
     
     }
-
-
-
-
 }
+
+
+
+
+
+
 
