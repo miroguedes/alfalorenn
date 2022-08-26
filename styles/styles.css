@@ -655,8 +655,8 @@ main{
     
     
     .clienteimg1{
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
         background-image: url(../imagens/anglo.png);
         background-size: contain;
         background-repeat: no-repeat;
@@ -668,8 +668,8 @@ main{
     
     
     .clienteimg2{
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
         background-image: url(../imagens/dentistadopovo.webp);
         background-size: contain;
         margin-right: 35px;
@@ -677,27 +677,27 @@ main{
     }
     
     .clienteimg3{
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
         background-image: url(../imagens/sorriso.png);
         background-size: contain;
         background-repeat: no-repeat;
     }
     
     .clienteimg4{
-        width: 130px;
-        height: 150px;
+        width: 120px;
+        height: 140px;
         background-image: url(../imagens/odontovida.png);
         background-size: contain;
         background-repeat: no-repeat;
-        margin-left: -3px;
+        
         
     }
     
     .clienteimg5{
         
-        width: 130px;
-        height: 150px;
+        width: 120px;
+        height: 140px;
         background-image: url(../imagens/reidoratan.png);
         background-size: contain;
         background-repeat: no-repeat;
@@ -705,8 +705,8 @@ main{
     
     .clienteimg6{
         
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
         background-image: url(../imagens/multimarcas.png);
         background-size: contain;
         background-repeat: no-repeat;
