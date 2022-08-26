@@ -170,6 +170,7 @@ main{
     height: 350px;
     background-color: rgb(243, 243, 238);
     box-shadow: 1px 2px 1px 2px;
+    box-shadow: 1px 1px 8px 1px;
  
 }
 
@@ -189,6 +190,7 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
     
 }
 
@@ -873,7 +875,6 @@ main{
         background-color: rgb(31, 30, 30);
         margin-bottom: 0px;
         box-shadow: 1px 0 10px 2px;
-        justify-content: space-around;
     }
     
     #logofooter{
