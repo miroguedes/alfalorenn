@@ -255,6 +255,7 @@ main{
 #servicoscontainer{
     display: flex;
     
+    
 }
 
 #servicosh1{
@@ -268,11 +269,13 @@ main{
 }
 
 #redessociaiscontainer{
+    border-radius: 8px;
     display: flex;
     margin-left: 50px;
     margin-bottom: 30px;
     width: 90vw;
     background-color: beige;
+    border-radius: 8px;
 }
 
 #redessociais{
@@ -307,11 +310,13 @@ main{
 /*automacao*/
 
 #automacaocontainer{
+    border-radius: 8px;
     display: flex;
     margin-left: 50px;
     margin-bottom: 30px;
     width: 90vw;
     background-color: beige;
+    border-radius: 8px;
 }
 
 #automacao{
@@ -348,6 +353,8 @@ main{
 /*assessoria*/
 
 #assessoriacontainer{
+    border-radius: 8px;
+    border-radius: 8px;
     display: flex;
     margin-left: 50px;
     margin-bottom: 30px;
@@ -715,6 +722,7 @@ main{
     
     #servicoscontainer{
         display: flex;
+        
         
     }
     
