@@ -670,7 +670,7 @@ main{
         background-size: contain;
         background-repeat: no-repeat;
         margin-right: 30px;
-        margin-left: 40px;
+        
     }
     
     
@@ -696,6 +696,8 @@ main{
         background-image: url(../imagens/odontovida.png);
         background-size: contain;
         background-repeat: no-repeat;
+        margin-right: 30px;
+        margin-left: -5px;
         
         
     }
@@ -705,6 +707,7 @@ main{
         background-image: url(../imagens/reidoratan.png);
         background-size: contain;
         background-repeat: no-repeat;
+        margin-right: 30px;
     }
     
     .clienteimg6{
