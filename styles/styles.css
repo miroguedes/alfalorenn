@@ -834,17 +834,18 @@ main{
     #assessoria{
         margin-bottom: 20px;
         width: 85%;
-        margin-left: 75px;
+        margin-left: 70px;
         
         
     }
     
     #assessoriaimg{
         display: none;
-        margin-bottom: 20px;
+        margin-top: 40px;
+        
         width: 500px;
         height: 300px;
-        background-image: url(../imagens/assessoria.webp);
+        background-image: url(../imagens/automacao.png);
         background-repeat: no-repeat;
         background-size: contain;
     }
@@ -861,7 +862,6 @@ main{
         text-align: center;
         line-height: 25px;
         color: #8C3565;
-        width: 100%;
     }
     
     /*footer*/
