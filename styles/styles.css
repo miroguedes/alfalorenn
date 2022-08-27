@@ -178,7 +178,7 @@ main{
 
 #clientescontainer h4{
     padding-top: 20px;
-    font-size: 2rem;
+    font-size: 2.8rem;
     font-weight: bold;
     text-align: center;
     color: #F29D35;
@@ -686,7 +686,6 @@ main{
         flex-direction: row;
         flex-wrap: wrap;
         
-                
         
     }
     
@@ -704,13 +703,13 @@ main{
 }
 
 #odonto img{
-    width: 120px;
+    width: 100px;
     height: 70px;
     
 }
 
 #rattan img{
-    width: 120px;
+    width: 100px;
     height: auto;
 }
 
