@@ -704,16 +704,18 @@ main{
 
 #odonto img{
     width: 100px;
-    height: 70px;
+    height: 65px;
     
 }
 
 #rattan img{
     width: 100px;
     height: auto;
+    margin-left: 10px;
 }
 
 #wg img{
+    margin-left: 10px;
     width: 110px;
     height: auto;
 }
