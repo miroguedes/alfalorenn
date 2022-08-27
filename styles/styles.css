@@ -225,64 +225,7 @@ main{
 }
 
 
-/*.clienteimg1{
-    width: 100px;
-    height: 100px;
-    background-image: url(../imagens/anglo.png);
-    background-size: contain;
-    background-repeat: no-repeat;
 
-}
-
-
-.clienteimg2{
-    width: 100px;
-    height: 100px;
-    background-image: url(../imagens/dentistadopovo.webp);
-    background-size: contain;
-    margin-left: 40px;
-    background-repeat: no-repeat;
-}
-
-.clienteimg3{
-    width: 100px;
-    height: 100px;
-    background-image: url(../imagens/sorriso.png);
-    background-size: contain;
-    margin-left: 40px;
-    background-repeat: no-repeat;
-}
-
-.clienteimg4{
-    margin-top: 30px;
-    width: 100px;
-    height: 100px;
-    background-image: url(../imagens/odontovida.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-left: 40px;
-}
-
-.clienteimg5{
-    margin-top: 30px;
-    width: 100px;
-    height: 100px;
-    background-image: url(../imagens/reidoratan.png);
-    background-size: contain;
-    margin-left: 40px;
-    background-repeat: no-repeat;
-}
-
-.clienteimg6{
-    margin-top: 30px;
-    width: 100px;
-    height: 100px;
-    background-image: url(../imagens/multimarcas.png);
-    background-size: contain;
-    margin-left: 40px;
-    background-repeat: no-repeat;
-}
-*/
 #servicoscontainer{
     display: flex;
     
@@ -924,7 +867,7 @@ main{
 
 /*media iphone*/
 
-@media (max-width:442px){
+@media (max-width:416px){
 
 
     #clientescontainer{
@@ -956,14 +899,14 @@ justify-content: space-between;
 }
 
 .clienteimg img{
-width: 90px;
-height: 90px;
+width: 85px;
+height: 85px;
 
 }
 
 #odonto img{
-width: 100px;
-height: 65px;
+width: 90px;
+height: 60px;
 
 }
 
@@ -975,7 +918,7 @@ margin-left: 10px;
 
 #wg img{
 margin-left: 10px;
-width: 100px;
+width: 90px;
 height: auto;
 }
 
