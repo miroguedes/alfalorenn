@@ -881,15 +881,18 @@ main{
         box-shadow: 1px 0 10px 2px;
     }
     
-    #logofooter{
-        margin-top: 50px;
-        margin-left: 40px;
+    .logofooter{
+        padding-top: 50px;
+        padding-left: 15px;
         width: 150px;
-        height: 100px;
-        background-image: url(../imagens/logobranco.png);
-        background-size: contain;
-       
-       
+        height: 150px;
+
+    }
+
+    .logofooter img{
+        width: 120px;
+        height: 70px;
+
     }
     
     #linksfooter ul{
