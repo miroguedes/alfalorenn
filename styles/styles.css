@@ -496,14 +496,8 @@ main{
 
 }
 
-@media (max-width:576px){
-    *{
-        margin: 0;
-        padding: 0;
-        font-family: Arial, Helvetica, sans-serif;
-        box-sizing: border-box;
-        
-    }
+@media (max-width:585px){
+    
     
     :root{
         --corheader:rgb(31, 30, 30);
@@ -663,7 +657,7 @@ main{
     
     #clientescontainer{
         width: 100vw;
-        height: 350px;
+        height: 370px;
         background-color: rgb(243, 243, 238);
         box-shadow: 1px 1px 8px 1px;
      
@@ -681,6 +675,7 @@ main{
     }
     
     #clientesimgcontainer{
+        margin-top: 20px;
         width: 100vw;
         display: flex;
         flex-direction: row;
@@ -697,28 +692,12 @@ main{
 }
 
 .clienteimg img{
-    width: 90px;
-    height: 90px;
+    width: 125px;
+    height: 125px;
 
 }
 
-#odonto img{
-    width: 120px;
-    height: 70px;
-    
-}
 
-#rattan img{
-    width: 100px;
-    height: auto;
-    margin-left: 10px;
-}
-
-#wg img{
-    margin-left: 10px;
-    width: 120px;
-    height: auto;
-}
     
     
     /*.clienteimg1{
