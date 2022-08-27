@@ -411,15 +411,13 @@ main{
     box-shadow: 1px 0 10px 2px;
 }
 
-#logofooter{
+.logofooter{
     margin-top: 50px;
     margin-left: 40px;
     width: 250px;
     height: 150px;
     display: flex;
-    background-image: url(../imagens/logobranco.png);
-    background-size: contain;
-   background-repeat: no-repeat;
+   
    
 }
 
@@ -875,14 +873,14 @@ main{
         display: flex;
         flex-direction: row;
         width: 100vw;
-        height: 200px;
+        height: 170px;
         background-color: rgb(31, 30, 30);
-        margin-bottom: 0px;
         box-shadow: 1px 0 10px 2px;
+        margin-bottom: 0px;
     }
     
     .logofooter{
-        padding-top: 50px;
+        
         padding-left: 15px;
         width: 150px;
         height: 150px;
