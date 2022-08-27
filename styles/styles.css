@@ -671,7 +671,7 @@ main{
         background-image: url(../imagens/anglo.png);
         background-size: contain;
         background-repeat: no-repeat;
-        margin-right: 30px;
+        
         
     }
     
@@ -681,7 +681,7 @@ main{
         background-image: url(../imagens/dentistadopovo.webp);
         background-size: contain;
         background-repeat: no-repeat;
-        margin-right: 30px;
+        
         
     }
     
@@ -698,7 +698,7 @@ main{
         background-image: url(../imagens/odontovida.png);
         background-size: contain;
         background-repeat: no-repeat;
-        margin-right: 30px;
+        
         margin-left: -5px;
         
         
