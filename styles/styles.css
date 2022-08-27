@@ -873,17 +873,17 @@ main{
         display: flex;
         flex-direction: row;
         width: 100vw;
-        height: 170px;
+        height: 200px;
         background-color: rgb(31, 30, 30);
         box-shadow: 1px 0 10px 2px;
         margin-bottom: 0px;
+        padding-bottom: 0px;
     }
     
     .logofooter{
-        
-        padding-left: 15px;
         width: 150px;
         height: 150px;
+        margin-left: 20px;
 
     }
 
