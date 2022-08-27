@@ -703,8 +703,8 @@ main{
 }
 
 #odonto img{
-    width: 100px;
-    height: 65px;
+    width: 120px;
+    height: 70px;
     
 }
 
@@ -716,7 +716,7 @@ main{
 
 #wg img{
     margin-left: 10px;
-    width: 110px;
+    width: 120px;
     height: auto;
 }
     
@@ -960,7 +960,7 @@ main{
     
     #linksfooter ul{
         
-        margin-left: 20px;
+        margin-left: 25px;
         display: flex;
         flex-direction: column;
         line-height: 5px;
@@ -984,16 +984,18 @@ main{
         font-size: 1rem;
     }
     
-    
+   
     
     #instagram{
         width: 40px;
         height: 40px;
         background-image: url(../imagens/instagram.png);
         
+        
     }
     
     #whatsapp{
+        margin-left: 5px;
         width: 40px;
         height: 40px;
         background-image: url(../imagens/whatsapp.png);
@@ -1003,8 +1005,50 @@ main{
     }
 }
 
+/*media iphone*/
+
+@media (max-width:462px){
+#clientesimgcontainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+}
 
 
+.clienteimg{
+margin-bottom: 20px;
+display: flex;
+justify-content: space-between;
+}
+
+.clienteimg img{
+width: 90px;
+height: 90px;
+
+}
+
+#odonto img{
+width: 120px;
+height: 70px;
+
+}
+
+#rattan img{
+width: 100px;
+height: auto;
+margin-left: 10px;
+}
+
+#wg img{
+margin-left: 10px;
+width: 100px;
+height: auto;
+}
+
+}
 
 
 
