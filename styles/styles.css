@@ -735,6 +735,8 @@ main{
         font-weight: bold;
         
     }
+
+    /*redes sociais*/
     
     #redessociaiscontainer{
         display: flex;
@@ -821,7 +823,7 @@ main{
     }
     
     /*assessoria*/
-    
+
     #assessoriacontainer{
         display: flex;
         margin-left: 50px;
@@ -834,7 +836,6 @@ main{
     #assessoria{
         margin-bottom: 20px;
         width: 85%;
-        margin-left: 50px;
         
         
     }
@@ -863,6 +864,9 @@ main{
         line-height: 25px;
         color: #8C3565;
     }
+
+    
+
     
     /*footer*/
     
