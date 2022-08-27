@@ -1007,7 +1007,7 @@ main{
 
 /*media iphone*/
 
-@media (max-width:462px){
+@media (max-width:442px){
 #clientesimgcontainer{
     width: 100vw;
     display: flex;
