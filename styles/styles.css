@@ -189,14 +189,43 @@ main{
     margin-top: 50px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
     
     
 }
 
 
 
-.clienteimg1{
+.clienteimg{
+    display: flex;
+    justify-content: space-between;
+}
+
+.clienteimg img{
+    width: 100px;
+    height: 100px;
+
+}
+
+#odonto img{
+    width: 150px;
+    height: 90px;
+}
+
+#rattan img{
+    width: 120px;
+    height: auto;
+}
+
+#wg img{
+    width: 110px;
+    height: auto;
+}
+
+
+/*.clienteimg1{
     width: 100px;
     height: 100px;
     background-image: url(../imagens/anglo.png);
@@ -253,7 +282,7 @@ main{
     margin-left: 40px;
     background-repeat: no-repeat;
 }
-
+*/
 #servicoscontainer{
     display: flex;
     
@@ -661,9 +690,37 @@ main{
         
     }
     
+   
+.clienteimg{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.clienteimg img{
+    width: 90px;
+    height: 90px;
+
+}
+
+#odonto img{
+    width: 120px;
+    height: 70px;
+    
+}
+
+#rattan img{
+    width: 120px;
+    height: auto;
+}
+
+#wg img{
+    width: 110px;
+    height: auto;
+}
     
     
-    .clienteimg1{
+    /*.clienteimg1{
         
         width: 100px;
         height: 100px;
@@ -723,6 +780,7 @@ main{
         background-size: contain;
         background-repeat: no-repeat;
     }
+    */
     
     #servicoscontainer{
         display: flex;
