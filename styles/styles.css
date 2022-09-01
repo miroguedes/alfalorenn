@@ -8,7 +8,7 @@
 
 :root{
     --corheader:rgb(31, 30, 30);
-    --corbanner:#8C3565;
+   
 
 }
 
@@ -32,6 +32,7 @@ body{
     position: fixed;
     top:0;
     left: 0;
+    z-index: 10;
 }
 
 
@@ -52,7 +53,8 @@ ul{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-right: 50px;
+    margin-right: 70px;
+    
     
     
 }
@@ -73,7 +75,7 @@ ul li a:hover{
 
 ul li{
     list-style: none;
-    padding: 20px;
+    padding: 5px;
     font-weight: bold;
     font-size: .8rem;
     display: flex;
@@ -101,7 +103,7 @@ main{
 
 
 #sobrenoscontainer{
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 50px;
     margin-right: 50px;
     display: flex;
@@ -157,74 +159,60 @@ main{
    
 }
 
+/*Clientes*/
+
 #clientescontainer{
-    width: 1280px;
-    height: 350px;
-    background-color: rgb(243, 243, 238);
-    box-shadow: 1px 2px 1px 2px;
-    box-shadow: 1px 1px 8px 1px;
- 
-}
-
-
-
-#clientescontainer h4{
-    padding-top: 20px;
-    font-size: 2.8rem;
-    font-weight: bold;
-    text-align: center;
-    color: black;
-}
-
-#clientesimgcontainer{
-    width: 1280px;
-    margin-top: 50px;
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-bottom: 30px;
+    width: 1000px;
+    height: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding-left: 50px;
-    padding-right: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+#clientesimg{
+    width: 250px;
+    height: 250px;
+    margin-top: -100px;
+    
+    
     
     
 }
 
-
-
-.clienteimg{
+#clientesimg img{
+    
+    width: 100%;
+    height: 100%;
     display: flex;
-    justify-content: space-between;
+    
+    
 }
 
-.clienteimg img{
-    width: 100px;
-    height: 100px;
-
+.col-md-3 {
+    position: relative;
+}
+.col-md-3 .seg {
+    visibility: hidden;
+    opacity: 0;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.col-md-3:hover .seg {
+    visibility: visible;
+    opacity: 1;
 }
 
-#odonto img{
-    width: 150px;
-    height: 90px;
-}
 
-#rattan img{
-    width: 120px;
-    height: auto;
-}
-
-#wg img{
-    width: 110px;
-    height: auto;
-}
-
-/* SERVICOS */
-
-/*#servicos h1{
-    font-size: 2.5rem;
-    text-align: center;
-    padding-top: 40px;
-    margin-bottom: 50px;
-}*/
-
+/*servicos*/
 
 #servico1{
     padding-top: 50px;
@@ -366,13 +354,23 @@ main{
 }
 
 #linksfooter ul{
-    margin-top: 30px;
+    margin-top: 35px;
     display: flex;
     flex-direction: column;
-    line-height: 5px;
     
-    margin-right: 50px;
+    
 }
+
+#linksfooter  li{
+    line-height: 0px;
+    display: flex;
+    padding: 12px;
+    
+    
+    
+}
+
+
 
 #endereco{
     margin-top: 45px;
@@ -458,490 +456,11 @@ main{
 
 @media (max-width:585px){
     
+}   
     
-    :root{
-        --corheader:rgb(31, 30, 30);
-        --corbanner:#8C3565;
-    
-    }
-    
-    
-    
-    #headercontainer{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 100vw;
-        height: 120px;
-        box-shadow: 1px 0 15px 2px;
-        align-items: center;
-        background-color: var(--corheader);
-        position: fixed;
-        top:0;
-        left: 0;
-    }
-    
-    
-    #logocontainer{
-       display: flex;
-       margin-left: 20px;
-       height: 100px;
-       width: 130px;
-       background-image: url(../imagens/logobranco.png);
-       background-size: contain;
-       background-repeat: no-repeat;
-       border-bottom: 0px;
-       
-    }
-    
-    ul{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        margin-right: 25px;
-        
-        
-    }
-    
-    ul a{
-        text-decoration: none;
-        color: whitesmoke;
-        font-weight: bolder;
-        padding: 10px;
-    }
-    
-    ul li a:hover{
-        padding: 10px;
-        color: #F29D35;
-    }
-    
-    
-    
-    ul li{
-        list-style: none;
-        padding: 5px;
-        font-weight: bold;
-        font-size: .8rem;
-        display: flex;
-        color: whitesmoke;
-     
-    }
-    
-    
-   
-    
-    main{
-        margin-top: 120px;
-    }
-    
-    #banner{
-        height: 520px;
-        width: 100vw;
-        display: flex;
-        flex-direction: row;
-        background-color: var(--corbanner); 
-        justify-content: center;
-        align-items: center;
-        box-shadow: 1px 0 10px 2px;
-    
-    }
-    
-    #imagemprincipal{
-        display: none;
-        margin-top: 45px;
-        margin-bottom: 0px;
-        height: 550px;
-        width: 500px;
-        background-repeat: no-repeat;
-        background-image: url(../imagens/robot.png);
-    }
-        
-        
-    
-    
-    #bestchoice{
-        
-        width: 93%;
-        font-size: 2rem;
-        line-height: 50px;
-        font-weight: bold;
-        color: white;
-        text-align: center;
-    }
-    
-    
-    #sobrenoscontainer{
-        margin-top: 50px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin-bottom: 50px;
-        padding-right: 20px;
-        
-        
-    }
-    
-    #sobrenos{
-        
-        width: 90%;
-        
-        
-    }
-    
-    #sobrenos h1{
-        font-size: 2.5rem;
-        font-weight: bold;
-        text-align: center;
-        color: #F29D35;
-    }
-    
-    #sobrenos p{
-        text-align: center;
-        line-height: 25px;
-        color: #8C3565;
-    }
-    
-    #sobrenosimg{
-        display: none;
-        margin-top: 60px;
-        width: 50%;
-        height: 370px;
-        margin-left: 70px;
-        background-image: url(../imagens/sobrenosimg.jpg);
-        background-repeat: no-repeat;
-        background-size: contain;
-        border-radius: 15px;
-        
-       
-    }
-    
-    #clientescontainer{
-        width: 100vw;
-        height: 370px;
-        background-color: rgb(243, 243, 238);
-        box-shadow: 1px 1px 8px 1px;
-     
-    }
-    
-    
-    
-    #clientescontainer h4{
-        padding-top: 20px;
-        font-size: 2.5rem;
-        font-weight: bold;
-        text-align: center;
-        color: #F29D35;
-        
-    }
-    
-    #clientesimgcontainer{
-        margin-top: 20px;
-        width: 100vw;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        
-        
-    }
-    
-   
-.clienteimg{
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.clienteimg img{
-    width: 125px;
-    height: 125px;
-
-}
-
-
-    
-       
-    #servicoscontainer{
-        display: flex;
-        
-        
-    }
-    
-    #servicosh1{
-        padding-top: 50px;
-        margin-bottom: 50px;
-        text-align: center;
-        font-size: 2.5rem;
-        color: #A63348;
-        font-weight: bold;
-        
-    }
-
-    /*redes sociais*/
-    
-    #redessociaiscontainer{
-        display: flex;
-        margin-left: 50px;
-        margin-right: 50px;
-        margin-bottom: 30px;
-        width: 78vw;
-        background-color: beige;
-    }
-    
-    #redessociais{
-        
-        margin-bottom: 20px;
-        width: 85%;
-        
-        
-    }
-    
-    #redessociaisimg{
-        display: none;
-        width: 500px;
-        height: 400px;
-        background-image: url(../imagens/redessociais.png);
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    
-    #socialh2{
-        
-        font-size: 1.5rem;
-        font-weight: bold;
-        text-align: center;
-        color: #F29D35;
-        
-    }
-    
-    #redessociais p{
-        text-align: center;
-        line-height: 25px;
-        color: #8C3565;
-    }
-    
-    /*automacao*/
-    
-    #automacaocontainer{
-        display: flex;
-        margin-left: 50px;
-        margin-right: 50px;
-        margin-bottom: 30px;
-        width: 78vw;
-        background-color: beige;
-    }
-    
-    #automacao{
-        margin-bottom: 20px;
-        width: 85%;
-        
-        
-    }
-    
-    #automacaoimg{
-        display: none;
-        margin-top: 40px;
-        
-        width: 500px;
-        height: 300px;
-        background-image: url(../imagens/automacao.png);
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    
-    #automacaoh2{
-        padding: 40px;
-        font-size: 1.7rem;
-        font-weight: bold;
-        text-align: center;
-        color: #F29D35;
-    }
-    
-    #automacao p{
-        text-align: center;
-        line-height: 25px;
-        color: #8C3565;
-    }
-    
-    /*assessoria*/
-
-    #assessoriacontainer{
-        display: flex;
-        margin-left: 50px;
-        margin-right: 50px;
-        margin-bottom: 30px;
-        width: 78vw;
-        background-color: beige;
-    }
-    
-    #assessoria{
-        margin-bottom: 20px;
-        width: 85%;
-        
-        
-    }
-    
-    #assessoriaimg{
-        display: none;
-        margin-top: 40px;
-        
-        width: 500px;
-        height: 300px;
-        background-image: url(../imagens/automacao.png);
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    
-    #assessoriah2{
-        padding: 40px;
-        font-size: 1.7rem;
-        font-weight: bold;
-        text-align: center;
-        color: #F29D35;
-    }
-    
-    #assessoria p{
-        text-align: center;
-        line-height: 25px;
-        color: #8C3565;
-    }
-
-    
-
-    
-    /*footer*/
-    
-    #footercontainer{
-        
-        display: flex;
-        flex-direction: row;
-        width: 100vw;
-        height: 200px;
-        background-color: rgb(31, 30, 30);
-        box-shadow: 1px 0 10px 2px;
-        margin-bottom: 0px;
-        padding-bottom: 0px;
-    }
-    
-    .logofooter{
-        width: 150px;
-        height: 150px;
-        margin-left: 20px;
-
-    }
-
-    .logofooter img{
-        width: 120px;
-        height: 70px;
-
-    }
-    
-    #linksfooter ul{
-        
-        margin-left: 25px;
-        display: flex;
-        flex-direction: column;
-        line-height: 5px;
-        
-    }
-    
-    #endereco{
-        display: none;
-        margin-top: 45px;
-        color: white;
-        font-weight: bold;
-       
-    }
-    
-    #endereco p{
-        line-height: 15px;
-        font-size: 1rem;
-    }
-
-    #endereco h3{
-        font-size: 1rem;
-    }
-    
-   
-    
-    #instagram{
-        width: 40px;
-        height: 40px;
-        background-image: url(../imagens/instagram.png);
-        
-        
-    }
-    
-    #whatsapp{
-        margin-left: 5px;
-        width: 40px;
-        height: 40px;
-        background-image: url(../imagens/whatsapp.png);
-        
-        
-    
-    }
-}
-
 /*media iphone*/
 
 @media (max-width:416px){
 
-
-    #clientescontainer{
-        width: 100vw;
-        height: 300px;
-        background-color: rgb(243, 243, 238);
-        box-shadow: 1px 1px 8px 1px;
-     
-    }
+}
     
-
-
-
-
-    #clientesimgcontainer{
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    
-    
-}
-
-
-.clienteimg{
-margin-bottom: 20px;
-display: flex;
-justify-content: space-between;
-}
-
-.clienteimg img{
-width: 85px;
-height: 85px;
-
-}
-
-#odonto img{
-width: 90px;
-height: 60px;
-
-}
-
-#rattan img{
-width: 95px;
-height: auto;
-margin-left: 10px;
-}
-
-#wg img{
-margin-left: 10px;
-width: 90px;
-height: auto;
-}
-
-}
-
-
-
-
